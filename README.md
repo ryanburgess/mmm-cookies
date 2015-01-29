@@ -2,6 +2,8 @@ Mmm Cookies
 =============
 A JavaScript module to set and get cookies in the browser.
 
+![Mmm cookies logo](https://raw.github.com/ryanburgess/mmm-cookies/master/mmm-cookies.png)
+
 ## Install
 
 ```js
