@@ -1,0 +1,38 @@
+{
+  "name": "cookie-monster",
+  "version": "1.0.0",
+  "description": "A JavaScript module to set and get cookies in the browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanburgess/cookie-monster.git"
+  },
+  "keywords": [
+    "cookies",
+    "cookie",
+    "browser",
+    "javascript",
+    "front-end",
+    "browserify",
+    "module"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jsonlint": "^1.0.4",
+    "grunt-newer": "^1.1.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "author": "Ryan Burgess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanburgess/cookie-monster/issues"
+  },
+  "homepage": "https://github.com/ryanburgess/cookie-monster"
+}
