@@ -1,5 +1,5 @@
 {
-  "name": "cookie-monster",
+  "name": "mmm-cookies",
   "version": "1.0.0",
   "description": "A JavaScript module to set and get cookies in the browser.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryanburgess/cookie-monster.git"
+    "url": "https://github.com/ryanburgess/mmm-cookies.git"
   },
   "keywords": [
     "cookies",
@@ -32,7 +32,7 @@
   "author": "Ryan Burgess",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryanburgess/cookie-monster/issues"
+    "url": "https://github.com/ryanburgess/mmm-cookies/issues"
   },
-  "homepage": "https://github.com/ryanburgess/cookie-monster"
+  "homepage": "https://github.com/ryanburgess/mmm-cookies"
 }

@@ -1,4 +1,4 @@
-Cookie Monster
+Mmm Cookies
 =============
 A JavaScript module to set and get cookies in the browser.
  
