@@ -16,10 +16,10 @@ npm install mmm-cookies --save-dev
 var cookie = require('mmm-cookies');
 
 // set a cookie
-cookie.set(‘cookieName’, ‘cookieValue’);
+cookie.set('cookieName', 'cookieValue');
 
 // get a cookie value
-cookie.get(‘cookieName’);
+cookie.get('cookieName');
 ```
  
 ## Release History
