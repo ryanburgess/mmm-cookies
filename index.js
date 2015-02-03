@@ -1,4 +1,5 @@
 var exports = module.exports = function (doc) {
+  'use strict';
   if (!doc){
     doc = {};
   } 
