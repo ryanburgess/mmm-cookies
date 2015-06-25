@@ -1,5 +1,7 @@
-Mmm Cookies
-=============
+# Mmm Cookies
+
+[![npm version](https://badge.fury.io/js/mmm-cookies.svg)](http://badge.fury.io/js/mmm-cookies) [![Build Status](https://travis-ci.org/ryanburgess/mmm-cookies.svg?branch=master)](https://travis-ci.org/ryanburgess/mmm-cookies)
+
 A JavaScript module to set and get cookies in the browser.
 
 ![Mmm cookies logo](https://raw.github.com/ryanburgess/mmm-cookies/master/mmm-cookies.png)
