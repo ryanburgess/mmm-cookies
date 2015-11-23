@@ -2,14 +2,14 @@ var exports = module.exports = function (doc) {
   'use strict';
   if (!doc){
     doc = {};
-  } 
+  }
   if (typeof doc === 'string'){
     doc = { cookie: doc };
   }
   if (doc.cookie === undefined){
     doc.cookie = '';
   }
-  
+
   var self = {};
   self.get = function (key) {
     var splat = doc.cookie.split(/;\s*/);
@@ -22,7 +22,7 @@ var exports = module.exports = function (doc) {
     }
     return undefined;
   };
-  
+
   self.set = function (key, value, opts) {
     if (!opts){
       opts = {};
@@ -30,6 +30,9 @@ var exports = module.exports = function (doc) {
     var s = escape(key) + '=' + escape(value);
     if (opts.expires){
       s += '; expires=' + opts.expires;
+    }
+    if (opts.domain) {
+      s += '; domain=' + opts.domain;
     }
     if (opts.path){
       s += '; path=' + escape(opts.path);
